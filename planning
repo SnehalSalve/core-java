@@ -1,0 +1,66 @@
+ 12-day plan to cover core Java from basics to advanced:
+
+**Day 1: Introduction to Java**
+- Introduction to Java programming language
+- Setting up the Java development environment (JDK, IDE)
+- Writing your first "Hello, World!" program
+
+**Day 2: Data Types and Variables**
+- Basic data types in Java (int, double, char, boolean)
+- Variable declaration and initialization
+- Understanding literals and constants
+
+**Day 3: Operators and Expressions**
+- Arithmetic operators (+, -, *, /, %)
+- Relational operators (==, !=, <, >, <=, >=)
+- Logical operators (&&, ||, !)
+- Increment and decrement operators (++ and --)
+
+**Day 4: Control Flow Statements**
+- If-else statements
+- Switch statements
+- For loops
+- While and do-while loops
+
+**Day 5: Arrays and Strings**
+- Declaring and initializing arrays
+- Accessing array elements
+- String manipulation methods
+- String concatenation and comparison
+
+**Day 6: Object-Oriented Programming (OOP) Concepts**
+- Classes and objects
+- Constructors and methods
+- Encapsulation, inheritance, and polymorphism
+
+**Day 7: Packages and Access Modifiers**
+- Creating packages and importing classes
+- Access modifiers (public, private, protected, default)
+- Static and final keywords
+
+**Day 8: Exception Handling**
+- Understanding exceptions and errors
+- Handling exceptions using try-catch blocks
+- Finally block and nested try-catch
+
+**Day 9: Collections Framework**
+- Overview of collections (List, Set, Map)
+- ArrayList and LinkedList
+- HashSet and HashMap
+- Iterating over collections using loops and iterators
+
+**Day 10: Generics**
+- Introduction to generics
+- Creating generic classes and methods
+- Wildcards and bounded types
+
+**Day 11: File Handling**
+- Reading and writing files in Java
+- File and FileReader classes
+- BufferedReader and BufferedWriter
+
+**Day 12: Multithreading**
+- Introduction to threads
+- Creating and running threads
+- Synchronization and thread safety
+- Thread pools and Executors
