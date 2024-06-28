@@ -1,16 +1,22 @@
-package com.interfaces.demo;
+package com.exceptionhandling.demo;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
 
 public class Test {
 
 	public static void main(String[] args) {
 		
-		I1 i1 = new Child();
-		i1.demo();
+		String user ="root";
+		String password = "@Payal221995";
+		String url = "jdbc:mysql://localhost:3306/combine";
 		
-		
-		I2 i2 = new Child();
-		i2.data();
-		i2.demo();
+		try {
+			Connection connection = DriverManager.getConnection(url,user,password);
+			System.out.println("hello connection");
+		}catch (Exception e) {
+			System.out.println("sql exception");
+		}
 	}
 
 }
