@@ -1,22 +1,15 @@
-package com.exceptionhandling.demo;
-
-import java.sql.Connection;
-import java.sql.DriverManager;
+package com.singlton.demo;
 
 public class Test {
 
 	public static void main(String[] args) {
 		
-		String user ="root";
-		String password = "@Payal221995";
-		String url = "jdbc:mysql://localhost:3306/combine";
+		Data d1 =  Data.demo();
+		Data d2 = Data.demo();
 		
-		try {
-			Connection connection = DriverManager.getConnection(url,user,password);
-			System.out.println("hello connection");
-		}catch (Exception e) {
-			System.out.println("sql exception");
-		}
-	}
+		System.out.println("d1 : "+d1.hashCode());
+		System.out.println("d2 : "+d2.hashCode());
 
+	}
+	
 }
